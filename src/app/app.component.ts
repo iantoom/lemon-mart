@@ -1,9 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core'
-import { ObservableMedia } from '@angular/flex-layout'
 import { MatIconRegistry, MatSidenav } from '@angular/material'
 import { DomSanitizer } from '@angular/platform-browser'
 
 import { AuthService } from './auth/auth.service'
+import { MediaObserver } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-root',
@@ -95,7 +95,7 @@ export class AppComponent implements OnInit {
     iconRegistry: MatIconRegistry,
     sanitizer: DomSanitizer,
     public authService: AuthService,
-    public media: ObservableMedia
+    public media: MediaObserver
   ) {
     iconRegistry.addSvgIcon(
       'lemon',
