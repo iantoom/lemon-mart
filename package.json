@@ -79,6 +79,7 @@
     "js-beautify": "^1.8.9",
     "jwt-decode": "^2.2.0",
     "rxjs": "6.4.0",
+    "sshpk": "^1.16.1",
     "ts-enum-util": "^3.1.0",
     "zone.js": "0.8.29"
   },
@@ -103,7 +104,7 @@
     "jasmine": "^3.3.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
-    "karma": "^3.1.4",
+    "karma": "^4.0.1",
     "karma-chrome-launcher": "~2.1.1",
     "karma-cli": "~1.0.1",
     "karma-coverage-istanbul-reporter": "^1.4.3",
